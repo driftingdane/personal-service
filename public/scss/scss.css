@@ -1,0 +1,200 @@
+/*Single property */
+html {
+  font-size: 62.5%;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(0.3824091778vw + 0.924em);
+  }
+}
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 1.188em;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .tag-label, .tag-experience > span, .tag-label a {
+    font-size: 0.85rem !important;
+  }
+}
+/* Multiple properties with same values */
+h1, h2, h3, h4, h5 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+@media screen and (min-width: 20rem) {
+  h1, h2, h3, h4, h5 {
+    padding-top: calc(1vw - 0.2rem);
+    padding-bottom: calc(1vw - 0.2rem);
+  }
+}
+@media screen and (min-width: 70rem) {
+  h1, h2, h3, h4, h5 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 1px solid #ff931f;
+}
+
+table tr:hover {
+  background: #f4f4f4;
+}
+
+table tr:hover td {
+  color: #555;
+}
+
+table th, table td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #00cccc;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+
+table th.last {
+  border-right: none;
+}
+
+a.btn:hover, button:hover, button:focus {
+  color: #d4d7d8 !important;
+}
+
+a.color-grey:hover, a.color-grey.button:hover, a.color-grey:focus,
+.color-grey:hover, .color-grey.button:hover, .color-grey:focus {
+  color: black !important;
+}
+
+.color-light-green {
+  background-color: #28a745;
+  color: #EEEEEE;
+}
+
+.color-dark-green {
+  background-color: #307951;
+  color: #EEEEEE;
+}
+
+.color-turkish {
+  background-color: #25A18E;
+  color: #EEEEEE;
+}
+
+.color-orange {
+  background-color: #fe7e17;
+  color: #EEEEEE;
+}
+
+.color-dark-blue {
+  background-color: #004085;
+  color: #EEEEEE;
+}
+
+.color-light-blue {
+  background-color: #00A5CF;
+  color: #EEEEEE;
+}
+
+.color-blue {
+  background-color: #669cab;
+  color: #EEEEEE;
+}
+
+.color-red {
+  background-color: rgba(198, 48, 62, 0.84);
+  color: #EEEEEE;
+}
+
+.color-grey {
+  background-color: rgba(212, 215, 216, 0.84);
+}
+
+.color-light-green-text {
+  color: #28a745;
+}
+
+.color-purple-text {
+  border-bottom: 2px solid rgba(210, 21, 157, 0.84);
+}
+
+.color-dark-green-text {
+  color: #307951;
+}
+
+.color-turkish-text {
+  color: #25A18E;
+}
+
+.color-orange-text {
+  color: #fe7e17;
+}
+
+.color-dark-blue-text {
+  color: #004085;
+}
+
+.color-light-blue-text {
+  color: #00A5CF;
+}
+
+.color-blue-text {
+  color: #669cab;
+}
+
+.color-red-text {
+  color: rgba(198, 48, 62, 0.84);
+}
+
+.color-yellow-text {
+  color: rgba(210, 191, 0, 0.84);
+}
+
+.bg-banner {
+  background: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header.shrink {
+  background: #012b3a;
+  color: #ededed;
+}
+
+.header {
+  background: rgba(237, 237, 237, 0.4);
+  color: #012b3a;
+}
+
+a {
+  color: rgba(210, 21, 157, 0.84);
+}
+
+.nav-item i {
+  color: rgba(210, 21, 157, 0.84);
+}
+
+a:hover {
+  color: #d22aa4;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=scss.css.map */
+
+/*# sourceMappingURL=scss.css.map */

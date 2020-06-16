@@ -1,0 +1,338 @@
+/* your styles go here */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    margin-bottom: 3em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a:hover {
+    text-decoration: none!important;
+}
+
+.nameLinks {
+    text-decoration: #fefefe underline!important;
+    color: inherit;
+}
+.nameLinks:hover {
+    text-decoration: #fefefe none!important;
+    color: inherit;
+}
+.nav-link {
+    text-transform: capitalize;
+}
+#page-content {
+    flex: 1;
+    margin-top:5em;
+}
+.page-content_minus {
+    margin-top: 0 !important;
+}
+sub {
+    color: #ff454a!important;
+    font-size: 1.3em!important;
+}
+table th, table td{
+    display: table-cell!important;
+    vertical-align: middle!important;
+}
+
+/* Select every 3rd list item starting with first */
+.smaller-font > th {
+    font-size: 85%;
+    font-weight: 500;
+}
+.smaller-font > th:first-child {
+    font-size: 95%;
+    font-weight: 700;
+}
+
+@media (max-width: 575px){
+    .table.btn-block-xs {
+        display: inline!important;
+    }
+}
+/* Custom styles for show page */
+.profileCard {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.4rem;
+    padding: .8rem 1.4rem 2.4rem;
+    background: #fff;
+    -webkit-box-shadow: 0 .2rem .5rem #d4d7d8;
+    box-shadow: 0 .2rem .5rem #d4d7d8;
+}
+.profileCard .profileCard-heading {
+    margin-bottom: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .125rem;
+    text-align: left;
+}
+.profileHeader {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+@media screen and (min-width: 62rem) {
+    .avatarBar-wrapper {
+        display: inline-block;
+        margin: 0 0 1.6rem;
+    }
+}
+
+.tagGroup-wrapper, .profile .tagGroup-modal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.avatarBar-wrapper {
+    width: 160px;
+    position: relative;
+    margin: 0 auto .6rem;
+    display: block!important; text-align: center!important;
+}
+.avatarBar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #e9ebec;
+}
+
+.card-header {
+    border-bottom: none!important;
+}
+
+.userAvatar-white {
+    padding: 10px;
+    background: #FFF;
+    margin-bottom: 1em;
+}
+.userAvatar-img {
+    border-radius: 50%;
+    color: #85a394;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.userBio {
+    position: relative;
+    margin-top: 1rem;
+    padding-bottom: .6rem;
+    border-bottom: 0;
+    overflow-wrap: break-word;
+}
+
+.userName, .userPosition, .userExperience, .userContent {
+    text-align: center;
+    margin-bottom: .8rem;
+}
+.userPosition {
+    color: #93999e;
+}
+.userExperience {
+    margin-bottom: .8rem;
+}
+.userLink-group {
+    width: 100%;
+    text-align: center;
+    padding: 0 2rem;
+}
+.userLink-group .userLink {
+    margin-right: .8rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.tagGroup .tagGroup-heading {
+    text-align: center;
+    color: #93999e;
+    margin-bottom: 1.2rem;
+}
+.no_border-left {
+    border-bottom-left-radius: 0!important;
+    border-top-left-radius: 0!important;
+}
+.tag, .tag-alternate {
+    margin-bottom: 1.4rem;
+    width: 15em;
+}
+.tag .tag-label, .tag-alternate .tag-label {
+    width: 100%;
+    display: inline-block;
+    padding: .05rem .4rem;
+    border-radius: 2px;
+    text-align: center;
+    border: 1px solid rgb(241, 241, 241);
+    color: rgba(0, 0, 0, 0.78);
+    background-color: #fff;
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;*/
+}
+.tag .tag-experience, .tag-alternate .tag-experience {
+    display: block;
+    margin-top: .05rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.78);
+    margin-bottom: 1.4rem;
+    overflow-wrap: break-word;
+}
+
+.tagGroup {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.headlines::before {
+    display: block;
+    content: "";
+    width: 3px;
+    height: 3.0rem;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 auto 2.4rem;
+}
+
+.border-seperator {
+    border: 0.03125em solid #495057!important;
+}
+
+.userAvatar img {
+    box-shadow: 0 1px 1px 1px #dcdcdc;
+}
+
+
+footer {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding: 0px 0 20px;
+}
+.footer-details > h4{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.footer-contact-list li + li {
+    margin-top: 20px;
+}
+.footer-links li + li {
+    margin-top: 10px;
+}
+
+.footer-icon > div > a:nth-child(1) {
+    margin-left:0!important;
+
+}
+
+.footer-text{
+    text-align: right;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+.footer{
+    padding-bottom: 25px;
+}
+.footer .container .row{
+    padding-top: 3%;
+}
+
+.formIcons {
+    padding-left: 0.6em;
+    color: #379392!important;
+}
+.copyright > a{
+    display: block;
+    margin-top: 8px;
+}
+
+/***********************************************************************/
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    .fa-3x {font-size:  2em!important;}
+
+    .fa {display: block!important;}
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+
+    }
+
+    tr { margin-bottom:15px; }
+    .images img {margin-top:15px!important;}
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        width: 100%;
+
+
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+}
+
